@@ -1,3 +1,6 @@
 {
-  "author": "Autor"
+  "author": "Autor",
+  "app": {
+    "home": "Pagina de inicio"
+  }
 }
