@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import {TranslatePipe, TranslateService} from '@ngx-translate/core';
-import {LanguageSwitcherComponent} from './public/components/language-switcher/language-switcher.component';
+import {TranslateService} from '@ngx-translate/core';
+import {SideNavigationBarComponent} from './public/components/side-navigation-bar/side-navigation-bar.component';
 
 @Component({
   selector: 'app-root',
   imports: [
-    LanguageSwitcherComponent,
-    TranslatePipe
+    SideNavigationBarComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
